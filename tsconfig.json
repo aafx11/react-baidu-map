@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // 指定 TypeScript 项目的基准目录
+    "target": "esnext", // 指定编译出来的 JavaScript 代码的 ECMAScript 版本
+    "module": "commonjs", // 指定编译产物的模块格式
+    "jsx": "react-jsx", // 设置如何处理.tsx文件，将<div />编译成React.createElement("div")，输出的文件名为.js
+    "declaration": true, // 设置编译时是否为每个脚本生成类型声明文件.d.ts
+    "declarationDir": "./types", // 设置生成的.d.ts文件所在的目录
+    "strict": true, // 打开 TypeScript 的严格检查
+    "moduleResolution": "node", // 确定模块路径的算法，即如何查找模块，采用 Node.js 的 CommonJS 模块算法
+    "allowSyntheticDefaultImports": true, // 允许import命令默认加载没有default输出的模块
+    "esModuleInterop": true, // 修复了一些 CommonJS 和 ES6 模块之间的兼容性问题
+    "resolveJsonModule": true, // 允许 import 命令导入 JSON 文件
+    "allowJs": true // 允许 TypeScript 项目加载 JS 脚本。编译时，也会将 JS 文件，一起拷贝到输出目录
+  },
+  "include": [
+    "./packages/**/*"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/*.spec.ts",
+  ]
+}

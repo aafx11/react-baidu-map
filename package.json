@@ -1,0 +1,22 @@
+{
+  "name": "react-baidu-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc:dev": "pnpm -r --filter=@react-baidu-map/storybook run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.6",
+    "@types/prop-types": "^15.7.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "prop-types": "15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}
