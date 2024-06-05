@@ -1,1 +1,1 @@
-export * from './requireScript'
+export * from './src/requireScript'

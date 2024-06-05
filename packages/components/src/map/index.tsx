@@ -4,13 +4,13 @@ import { MapProps } from './type';
 import { useMap } from './useMap';
 export { useMap };
 
-export const Map = forwardRef<MapProps>(({ ...props }, ref) => {
+export const Map = forwardRef<{},MapProps>(({ ...props }, ref) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const { setContainer, map } = useMap({});
-  
+
   useEffect(() => setContainer(containerRef.current), [containerRef.current]);
 
   return (
-    <div ref={containerRef}></div>
+    <div ref={containerRef} style={{ height: 350 }}></div>
   );
 });

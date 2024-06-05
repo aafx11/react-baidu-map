@@ -1,5 +1,5 @@
 {
-  "name": "@react-baidu-map/components",
+  "name": "@react-baidu-map/types",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@react-baidu-map/shared": "workspace:*",
-    "@react-baidu-map/types": "workspace:*"
-  }
+  "license": "ISC"
 }

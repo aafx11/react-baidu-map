@@ -9,7 +9,7 @@ export default {
     layout: "fullscreen",
   },
   args: {
-    src: "https://code.bdstatic.com/npm/mapvgl@1.0.0-beta.188/dist/mapvgl.min.js",
+    src: "https://api.map.baidu.com/getscript?v=1.0&&type=webgl&ak=hjS0pumZBrkgL8FgPFMuiMiWQomdR8Tr",
   },
 };
 

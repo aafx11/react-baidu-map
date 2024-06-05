@@ -1,3 +1,3 @@
-export { Map, useMap } from "./map";
-export type { MapProps } from "./map/type";
-export { ApiLoader } from "./api-loader";
+export { Map, useMap } from "./src/map";
+export type { MapProps } from "./src/map/type";
+export { ApiLoader } from "./src/api-loader";
